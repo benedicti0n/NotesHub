@@ -67,6 +67,11 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation ("com.google.android.gms:play-services-mlkit-document-scanner:16.0.0-beta1")
+    // ML Kit document scanner
+
+    implementation("com.google.android.gms:play-services-mlkit-document-scanner:16.0.0-beta1")
+
+    // Displays the scanned image
+
     implementation("io.coil-kt:coil-compose:2.5.0")
 }
