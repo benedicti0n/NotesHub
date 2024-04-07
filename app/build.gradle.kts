@@ -59,6 +59,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.play.services.drive)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -74,4 +75,8 @@ dependencies {
     // Displays the scanned image
 
     implementation("io.coil-kt:coil-compose:2.5.0")
+
+    implementation ("com.google.android.gms:play-services-mlkit-text-recognition:16.1.3")
+
+
 }
